@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 98);
 
 }
 .nav-links{
@@ -35,4 +35,29 @@
     align-items:center;
 
 }
-.hero
+.hero h2{
+    font: size 3rem;
+    margin-bottom: 20px;
+}
+.featured-products{
+    padding: 50px; 
+    text-align: center;
+}
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product{
+    width: 300px;;
+    margin: bottom 30px;
+
+}
+.product img{width: 100px;
+height:200px;
+object-fit: cover;
+margin: bottom 10px;}
+footer{background-color: blanchedalmond;
+color: rgb(192, 134, 62);
+text-align: center;
+padding:;}
