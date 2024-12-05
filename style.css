@@ -81,7 +81,7 @@ margin: bottom 10px;}
 }
 /*Seccion de personal*/
 .equipo{
-    background-color: antiquewhite;
+    background-image:url(https://www.ngenespanol.com/wp-content/uploads/2023/09/por-que-parpadean-las-estrellas.jpg);
 }
 .equipo-container{
     display: flex;
