@@ -24,6 +24,8 @@ color: rgb(247, 210, 3);}
     margin-left: 20px;
 
 }
+.nav-links li a{ color:rgb(247, 210, 3);
+text-decoration: none;}
 .hero{ background-image:url(https://sm.ign.com/ign_in/screenshot/default/black-clover-m_u9bv.jpg);
     background-size: cover;
     background-position: center;
@@ -39,18 +41,16 @@ color: rgb(247, 210, 3);}
     align-items:center;}
 .hero h2{
     font: size 3rem;
-    margin-bottom: 20px;
-
-
-}
+    margin-bottom: 20px;}
 .contenedor-boton{
-    padding: top 35px;
+    padding: top 50px;
 }
 .boton-menu{ 
-    margin: 20px;
-padding:10px;
-background-color: rgb(71, 33, 5);
-color:rgb(192, 134, 62);}
+    margin: 30px;
+padding:5px;
+border-radius:30%;
+background-color: rgb(221, 135, 23);
+color:rgb(247, 247, 247);}
 
 .featured-products{
     padding: 50px; 
