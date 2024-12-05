@@ -64,7 +64,7 @@ color:rgb(247, 247, 247);}
 .product{
     width: 300px;;
     margin-bottom:  30px;
-}
+    background-image:url(https://www.ngenespanol.com/wp-content/uploads/2023/09/por-que-parpadean-las-estrellas.jpg);}
 .product img{width: 100%;
 height:200px;
 object-fit: cover;
