@@ -143,7 +143,7 @@ padding: 10px;0;}
             gap: 20px;
             grid-template-areas:
             "valores1 valores2 valores3"
-            "valores4 valores5";
+;
 
         }
         .valores{
@@ -154,10 +154,10 @@ padding: 10px;0;}
             width:100%;
             height:80%;
             object-fit:cover;
-            margin-bottom: 10px;
+            margin-bottom: 10px;}
 
-
-    
-            
-        }
+.valores (1) {grid-area:valores1;}
+.valores (2) {grid-area:valores2;}
+.valores (3) {grid-area:valores3;}
+.valores (4) {grid-area:valores4;}
 
