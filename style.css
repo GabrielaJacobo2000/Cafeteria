@@ -1,17 +1,17 @@
 *{ padding:0;
- margin:0;}
+margin:0;}
 
- body{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: rgb(247, 210, 3);
-background-image:url(https://i.pinimg.com/736x/9d/fc/f4/9dfcf438f935150cb39f0d73f0bf99d7.jpg);}
+background-image:url(https://www.ngenespanol.com/wp-content/uploads/2023/09/por-que-parpadean-las-estrellas.jpg);}
 
 
- .navbar{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-image:url(https://play-lh.googleusercontent.com/2uSiveE_e_cQbarxsWmHXP0i6w3KxurQfJiuT_Heo4rpy34c_WpBhPV3z8iQ27FnzV5GOjBE0A=w1296-h2160-rw);
+    background-image:url(:https://www.ngenespanol.com/wp-content/uploads/2023/09/por-que-parpadean-las-estrellas.jpg);
 
 }
 .nav-links{
@@ -25,8 +25,9 @@ background-image:url(https://i.pinimg.com/736x/9d/fc/f4/9dfcf438f935150cb39f0d73
     margin-left: 20px;
 
 }
-.nav-links li a{ color:rgb(247, 210, 3);
+.nav-links li a{ color:rgb(247, 223, 3);
 text-decoration: none;}
+
 .hero{ background-image:url(https://sm.ign.com/ign_in/screenshot/default/black-clover-m_u9bv.jpg);
     background-size: cover;
     background-position: center;
@@ -105,59 +106,69 @@ margin: bottom 10px;}
 footer{background-color: rgb(0, 0, 0);
 color: rgb(192, 134, 62);
 text-align: center;
-padding: 10px;0;}
+padding: 10px 0;}
 
 .social-media{
-    margin-bottom 25px;}
+    margin-bottom:25px;}
+
     .social-media a {
         color: brown;
-        margin:0 10px;
-        font: size 30px;
+        margin: 0 10px;
+        font-size:30px;
     }
-    .newsletter {
+    .newsletter{
         text-align: center;
-        margin: bottom 30px;}
+        margin-bottom:30px;}
+    .newsletter h3{
+        margin-bottom: 20px;
+    }
+
         .newsletter input [type="email"]
         {
         padding: 10px;
-        border: 2px solid seagreen ;
-        border-radius:4px;
-        margin bottom:10px;
+        border: 2px solid seagreen;
+        border-radius: 4px;
+        margin-bottom: 10px;
         }
         .newsletter button [type="submit"]{
             background-color: blue;
             color: blueviolet;
             padding: 8px 16px;
-            border: none
-            border-radius: 5px ;
+            border-radius: 4px;
             cursor: pointer;
         }
+        .historia{
+            padding: 40px;
+            text-align: justify;
+        }
+        .historia img{
+            vertical-align: middle;
+            height: 100vh; }
+    
         .valores{
             padding: 50px;
             text-align: center;
         }
-        .grid-valor {
+        .grid-valor{
             display: grid;
             grid-template-columns:repeat(4,1fr);
-            grid-template-rows:repeat(2,250px);
-            gap: 20px;
+            grid-template-rows:repeat(2,260px);
+            gap:20px;
             grid-template-areas:
-            "valores1 valores2 valores3"
-;
-
+            "valor1 valor2 valor3 valor4";
         }
-        .valores{
-            border: 2px solid salmon;
+        .valor{
+            border: 3px solid salmon;
             padding: 25px;
         }
         .valores img{
-            width:100%;
-            height:80%;
+            width: 80%;
+            height: 50%;
             object-fit:cover;
             margin-bottom: 10px;}
 
-.valores (1) {grid-area:valores1;}
-.valores (2) {grid-area:valores2;}
-.valores (3) {grid-area:valores3;}
-.valores (4) {grid-area:valores4;}
+.valor:nth-child(1) {grid-area:valor1;}
+.valor:nth-child(2){grid-area:valor2;}
+.valor:nth-child(3){grid-area:valor3;}
+.valor:nth-child(4){grid-area:valor4;}
 
