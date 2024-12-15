@@ -7,6 +7,7 @@ background-image:url(https://www.ngenespanol.com/wp-content/uploads/2023/09/por-
 
 
 .navbar{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +22,9 @@ background-image:url(https://www.ngenespanol.com/wp-content/uploads/2023/09/por-
     display:flex;
 
 }
+.nav-logo{ 
+    max-height: 100px;
+    width: 50;}
 .nav-links li {
     margin-left: 20px;
 
